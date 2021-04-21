@@ -50,7 +50,8 @@ const styles = StyleSheet.create({
     fontSize : 20
   },
   ToolBar: {
-    flex: 1
+    flex: 1,
+    flexDirection: "row"
   },
   Tools: {
     flexDirection: "row",
