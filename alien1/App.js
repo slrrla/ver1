@@ -11,6 +11,7 @@ export default function App() {
         <Text style= {styles.TextTitle}>방한칸 외계인</Text>
       </View>
       <View style = {styles.Content}>
+        <Text>Content goes in here.</Text>
       </View>
       <View style = {styles.ToolBar}>
         <View style = {styles.Tools}>
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
 
   Content:{
     flex :10,
-    backgroundColor:"#fff"
+    backgroundColor:"##FFC0CB"
   },
   TextTitle:{
     textAlign:"left",
