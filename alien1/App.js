@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
 
   Content:{
     flex :10,
-    backgroundColor:"#FFC0CB"
+    backgroundColor:"#FFC0CB",
+    justifyContent: "center"
   },
   TextTitle:{
     textAlign:"left",
