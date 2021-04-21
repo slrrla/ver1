@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 
   Flex:{
     flex :1,
-    backgroundColor :"#395EC7"
+    backgroundColor :"#395EC7",
     justifyContent: "flex-end"
   },
 
