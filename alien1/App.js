@@ -14,13 +14,13 @@ export default function App() {
       </View>
       <View style = {styles.ToolBar}>
         <View style = {styles.Tools}>
-          <text>공구</text>
+          <Text>공구</Text>
         </View>
         <View style = {styles.Tools}>
-          <text>카메라</text>
+          <Text>카메라</Text>
         </View>
         <View style = {styles.Tools}>
-          <text>메뉴</text>
+          <Text>메뉴</Text>
         </View>
       </View>
       <StatusBar style="auto" />
