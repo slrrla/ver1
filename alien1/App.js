@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
   },
   ToolBar: {
     flex: 1,
+    backgroundColor: "#fff",
     flexDirection: "row"
   },
   Tools: {
