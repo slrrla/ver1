@@ -57,7 +57,8 @@ const styles = StyleSheet.create({
   Tools: {
     flexDirection: "row",
     flex: 1,
-    justifyContent: "center"
+    justifyContent: "center",
+    paddingVertical: 20
   }
 
   
