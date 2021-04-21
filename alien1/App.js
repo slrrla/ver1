@@ -11,7 +11,7 @@ export default function App() {
         <Text style= {styles.TextTitle}>방한칸 외계인</Text>
       </View>
       <View style = {styles.Content}>
-        <Text>Content goes in here.</Text>
+        <Text style = {styles.Text}>Content goes in here.</Text>
       </View>
       <View style = {styles.ToolBar}>
         <View style = {styles.Tools}>
