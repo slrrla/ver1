@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     
     flex: 1,
     backgroundColor: '#fff',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     flexDirection:"column",
 
   },
@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   Flex:{
     flex :1,
     backgroundColor :"#395EC7"
+    justifyContent: "flex-end"
   },
 
   Flex2:{
