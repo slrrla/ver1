@@ -61,7 +61,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     paddingVertical: 20
+  },
+  Text: {
+    textAlign: "center",
+    fontSize: 50
   }
-
   
 });
