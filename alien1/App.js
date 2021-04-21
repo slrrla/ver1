@@ -7,13 +7,22 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      <View style = {styles.Flex}>
-        <Text style= {styles.Text}>방한칸 외계인</Text>
+      <View style = {styles.TopTitle}>
+        <Text style= {styles.TextTitle}>방한칸 외계인</Text>
       </View>
-      <View style = {styles.Flex2}>
-
+      <View style = {styles.Content}>
       </View>
-      
+      <View style = {styles.ToolBar}>
+        <View style = {styles.Tools}>
+          <text>공구</text>
+        </View>
+        <View style = {styles.Tools}>
+          <text>카메라</text>
+        </View>
+        <View style = {styles.Tools}>
+          <text>메뉴</text>
+        </View>
+      </View>
       <StatusBar style="auto" />
       </View>
   );
@@ -21,32 +30,32 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    
     flex: 1,
     backgroundColor: '#fff',
     justifyContent: 'center',
-    flexDirection:"column",
-
   },
 
-  Flex:{
+  TopTitle:{
     flex :1,
     backgroundColor :"#395EC7",
     justifyContent: "flex-end"
   },
 
-  Flex2:{
-    flex :9,
+  Content:{
+    flex :10,
     backgroundColor:"#fff"
-
   },
-  Text:{
+  TextTitle:{
     textAlign:"left",
     fontSize : 20
-
-
+  },
+  ToolBar: {
+    flex: 1
+  },
+  Tools: {
+    flexDirection: "row",
+    flex: 1
   }
-  
 
   
 });
