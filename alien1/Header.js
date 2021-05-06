@@ -9,7 +9,7 @@ import { Icon,Header } from 'react-native-elements';
 
 
 
-const Header= ()=>{
+const header= ()=>{
 
   {/*title tab with search and list icons and buttons*/}
  
