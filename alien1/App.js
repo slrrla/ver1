@@ -12,7 +12,7 @@ import BottomButton from './components';
 
 //import icons
 //https://reactnativeelements.com/docs/icon/#component
-import { Icon } from 'react-native-elements';
+import { Icon,Header } from 'react-native-elements';
 
 
 
@@ -25,32 +25,31 @@ export default function App() {
         
     <View style={styles.container}>
       {/*title tab with search and list icons and buttons*/}
-      
-        <View style = {styles.TopTitle}>   
-          <Text style= {styles.TextTitle}>홈어</Text> 
-          <View icon1 
-              
-            >
-              <Icon
-              name = 'search'
-              color ='#fff'
-              />
+ 
 
-            </View>
-        </View>
-   
+    <Header
+      leftComponent = {{text:"홈어",style : styles.TextTitle}}
+      rightComponent = {{icon:"search",color:"#fff",size:30}}
+      containerStyle={{
+        backgroundColor :"#395EC7",
+        alignItems:"flex-end",
+        size :100
+      }}
+    />
+
       {/*content goes here */}
       <View style = {styles.Content}>
         <Text style = {styles.Text}>Content goes in here.</Text>
       </View>
-    
 
-    
     {/*toolbar icons and buttons */}
       <View style = {styles.ToolBar}>
         <View style = {styles.Tools}>
+          
+          {/*search for valid icon such as fix or tool*/}
           <Icon
-          name = 'fix'
+
+          name = 'menu'
           color ='#fff'
           />
         </View>
