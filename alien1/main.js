@@ -7,7 +7,7 @@ import { Dimensions } from 'react-native';
 // import BottmTabNavigator to remove space form bottom 
 import { BottomTabBar, createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { color } from 'react-native-reanimated';
-import BottomButton from './components';
+import BottomButton from './Header';
 
 //import icons
 //https://reactnativeelements.com/docs/icon/#component
