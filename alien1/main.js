@@ -9,23 +9,16 @@ import { BottomTabBar, createBottomTabNavigator } from '@react-navigation/bottom
 import { color } from 'react-native-reanimated';
 import BottomButton from './components';
 
-
 //import icons
 //https://reactnativeelements.com/docs/icon/#component
 import { Icon,Header } from 'react-native-elements';
 
-
-
-
-
-    
 export default function Main() {
   return (
         
     <View style={styles.container}>
       {/*title tab with search and list icons and buttons*/}
  
-
     <Header
       leftComponent = {{text:"홈어",style : styles.TextTitle}}
       rightComponent = {{icon:"search",color:"#fff",size:30}}
@@ -65,14 +58,9 @@ export default function Main() {
           />
         </View>
 
-
-
       </View>
       <StatusBar style="inverted" />
       </View>
-
-
-
 
 );
 }
